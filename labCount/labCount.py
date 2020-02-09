@@ -24,8 +24,8 @@ driver = webdriver.Firefox()
 
 URL = "https://its.uncg.edu/Labs/Lab_Count/"
 #Insert username and password directly here:
-USERNAME = 'lajolico'
-PASSWORD = 'MbIs062620002001'
+USERNAME = ''
+PASSWORD = ''
 
 def login():
     driver.get(URL)
