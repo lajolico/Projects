@@ -64,7 +64,6 @@ def login(select):
         driver.switch_to.frame(authorization)
         driver.implicitly_wait(30)
         driver.find_element_by_xpath("//button[@class='positive auth-button']").click()
-        print('success')
 
 if __name__ == '__main__':
     main()
