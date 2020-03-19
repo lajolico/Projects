@@ -22,7 +22,7 @@ from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Firefox()
 
-URL = "https://its.uncg.edu/Labs/Lab_Count/"
+URL = ""
 #Insert username and password directly here:
 USERNAME = ''
 PASSWORD = ''
